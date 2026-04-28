@@ -1,0 +1,22 @@
+/* Fundo geral */
+body {
+    background-color: #f4f6f8;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #0e1117;
+}
+
+/* Título */
+h1 {
+    color: #1f2937;
+}
+
+/* Cards */
+.metric-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+}
