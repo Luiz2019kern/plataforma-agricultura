@@ -3,9 +3,9 @@ import ee
 import folium
 from streamlit_folium import st_folium
 
-from utils.gee import init_gee
 from modules.field_data import read_zip_shapefile
 from modules.maps import add_boundary
+from utils.gee import init_gee
 
 init_gee()
 

@@ -1,11 +1,14 @@
-import streamlit as st
 import ee
-import folium
-from streamlit_folium import st_folium
+import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
 
+from modules.zones import (
+    weighted_overlay,
+    classify_management_zones
+)
+from modules.interpolation import idw_interpolation
 from utils.gee import init_gee
-from modules.field_data import read_zip_shapefile
-from modules.maps import add_boundary
 
 init_gee()
 
